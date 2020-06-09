@@ -3,6 +3,6 @@
 //third commit is the charm 
 //Hello World
 
-=======
-//Hello World
 //Much java, very code
+// conflicts can always be resolvedwith patience 
+//not just pullin and pushin
