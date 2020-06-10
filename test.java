@@ -46,7 +46,7 @@ public static void main (String[] args) throws IOException {
 	      
 	      average = Sum/(Values.size());  //finds average
 	      
-	      fileByteStream.close();
+	      fileByteStream.close(); //this is a testing file 
  
 	     
 	      
