@@ -7,3 +7,6 @@
 // conflicts can always be resolvedwith patience 
 //not just pullin and pushin
 // I am tryign to create a local divergence here 
+
+
+//adding a new commit - june 10th.
