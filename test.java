@@ -7,3 +7,5 @@
 // conflicts can always be resolvedwith patience 
 //not just pullin and pushin
 // I am tryign to create a local divergence here 
+
+//Commit 1
