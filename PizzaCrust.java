@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PizzaCrust {
 	int crustPref;
-	int userInput;
+	int userInput;// added a comment
 	
 	// Allows customer to choose their style of crust
 	private void chooseCrust() {
