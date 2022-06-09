@@ -8,4 +8,5 @@ PT {
 	bacon = true
 	stuffedCrust = true;
 	pineapple = false;
+	mushrooms = true;
 }
