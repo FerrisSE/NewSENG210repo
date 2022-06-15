@@ -12,15 +12,15 @@ public class PizzaCrust {
 		userInput = scnr.nextInt();
 		
 		if(userInput == 1) {
-			System.out.println("Softer crust, understood.");
+			System.out.println("Soft crust it is then!");
 			crustPref = userInput;
 		}
 		else if(userInput == 2) {
-			System.out.println("Medium crust, you got it.");
+			System.out.println("Solid choice, medium crust coming right up.");
 			crustPref = userInput;
 		}
 		else if(userInput == 3) {
-			System.out.println("Hard crust, nice and crunchy.");
+			System.out.println("Crisp and crunchy! Can't go wrong with hard crust.");
 			crustPref = userInput;
 		}
 		else {
