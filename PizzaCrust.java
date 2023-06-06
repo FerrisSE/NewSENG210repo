@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class PizzaCrust {
@@ -10,7 +11,7 @@ public class PizzaCrust {
 		Scanner scnr = new Scanner(System.in);
 		System.out.println("How would you like your crust? \n 1. Soft\n 2. Medium\n 3. Hard");
 		userInput = scnr.nextInt();
-		
+	try {
 		if(userInput == 1) {
 			System.out.println("Soft crust it is then!");
 			crustPref = userInput;
@@ -26,9 +27,15 @@ public class PizzaCrust {
 		else {
 			System.out.println("Not a valid input.");
 		}
+	
+	} catch (InputMismatchException e) {
+		System.out.println("Please enter a number");
+	}
+	}
 		
 		//Adding comment
 		//Another comment
 		
+		
 	}
-}
+
