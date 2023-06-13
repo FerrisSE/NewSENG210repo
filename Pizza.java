@@ -33,4 +33,27 @@ public class Pizza {
 		return price;
 	}
 	
+	public void removeTopping(String topping) {
+		toppings.remove(topping);
+	}
+	
+	public boolean isVegetarian() {
+		for (String topping : toppings) {
+			if (!isVegetarianTopping(topping)) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	private boolean isVegetarianTopping(String topping) {
+	    String lowercaseTopping = topping.toLowerCase();
+	    return !lowercaseTopping.equals("ham")
+	            && !lowercaseTopping.equals("bacon")
+	            && !lowercaseTopping.equals("chicken")
+	            && !lowercaseTopping.equals("turkey")
+	            && !lowercaseTopping.equals("pepperoni")
+	            && !lowercaseTopping.equals("salami");
+	}
+
 }
