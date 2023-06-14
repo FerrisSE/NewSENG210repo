@@ -13,16 +13,19 @@ public class Start {
 		System.out.println("Type a number to choose:\n 1.Pizza \n 2.Pasta \n 3.Subs");
 		userInput = scnr.nextInt();
 		
-		//FIXME add what happens when customer selects an option
+		
 		if (userInput == 1) {
+			//FIXME add what happens when customer selects an option
 			System.out.println("Choose what Pizza you'd like! \n 1. Cheese \n 2. Pepparoni \n 3. Custom");
 			userInput = scnr.nextInt();
 		}
 		else if (userInput == 2) {
+			//FIXME add what happens when customer selects an option
 			System.out.println("Choose what Pasta you'd like! \n 1. Chicken Alfredo \n 2. Veggie \n 3. Cheesy Alfredo");
 			userInput = scnr.nextInt();
 		}
 		else if (userInput == 3) {
+			//FIXME add what happens when customer selects an option
 			System.out.println("Choose what Sub you'd like! \n 1. Italian \n 2. Vegetarian \n 3. Custom");
 			userInput = scnr.nextInt();
 		}
