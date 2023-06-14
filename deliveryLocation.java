@@ -5,6 +5,7 @@ public class deliveryLocation extends Pizza {
 	
 	String address;
 	
+	
 	public deliveryLocation(PizzaSize size, float price) {
 		super(size, price);
 	}
@@ -15,4 +16,5 @@ public class deliveryLocation extends Pizza {
 
 		Pizza.address = scanner.nextLine(); // User input will transfer to Pizza.address
 	}
-}
+	
+}	
