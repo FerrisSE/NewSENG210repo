@@ -15,13 +15,16 @@ public class Start {
 		
 		//FIXME add what happens when customer selects an option
 		if (userInput == 1) {
-			
+			System.out.println("Choose what Pizza you'd like! \n 1. Cheese \n 2. Pepparoni \n 3. Custom");
+			userInput = scnr.nextInt();
 		}
 		else if (userInput == 2) {
-			
+			System.out.println("Choose what Pasta you'd like! \n 1. Chicken Alfredo \n 2. Veggie \n 3. Cheesy Alfredo");
+			userInput = scnr.nextInt();
 		}
 		else if (userInput == 3) {
-			
+			System.out.println("Choose what Sub you'd like! \n 1. Italian \n 2. Vegetarian \n 3. Custom");
+			userInput = scnr.nextInt();
 		}
 		else {
 			
