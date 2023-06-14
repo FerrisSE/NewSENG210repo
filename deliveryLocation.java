@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class deliveryLocation extends Pizza {
 	
 	String address;
+	float tips;
 	
 	public deliveryLocation(PizzaSize size, float price) {
 		super(size, price);
@@ -14,5 +15,9 @@ public class deliveryLocation extends Pizza {
 		System.out.println("What (fake) location will the pizza be delivered to?");
 
 		Pizza.address = scanner.nextLine(); // User input will transfer to Pizza.address
+	}
+	
+	public void tipsTracker() {
+		System.out.println("Your updated tip balance is: " + tips);
 	}
 }
