@@ -5,5 +5,5 @@ public enum PizzaSize {
 	MEDIUM,
 	LARGE,
 	GINORMOUS,
-	EXTRALARGE,
+	EXTRANORMOUS,
 }
