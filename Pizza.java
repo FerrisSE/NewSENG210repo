@@ -55,5 +55,10 @@ public class Pizza {
 	            && !lowercaseTopping.equals("pepperoni")
 	            && !lowercaseTopping.equals("salami");
 	}
+	
+	private String getCheeseType() {
+		// There's is only one type of cheese 
+		return "Mozzarella"; 
+	}
 
 }
