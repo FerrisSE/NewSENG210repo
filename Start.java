@@ -15,16 +15,16 @@ public class Start {
 		
 		//FIXME add what happens when customer selects an option
 		if (userInput == 1) {
-			
+			System.out.println("One pizza coming up!");
 		}
 		else if (userInput == 2) {
-			
+			System.out.println("One pasta coming up!");
 		}
 		else if (userInput == 3) {
-			
+			System.out.println("One sub coming up!");
 		}
 		else {
-			
+			System.out.println("Invalid answer: please restart system. ");
 		}
 	}
 
