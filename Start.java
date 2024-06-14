@@ -24,7 +24,7 @@ public class Start {
 			System.out.println("One sub coming up!");
 		}
 		else {
-			System.out.println("Invalid answer: please restart system. ");
+			System.out.println("Invalid answer. ");
 		}
 	}
 
