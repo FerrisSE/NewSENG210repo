@@ -5,8 +5,9 @@ import pizza toppings;
 
 PT {
 	pepperoni = true;
-	bacon = true
+	bacon = true;
 	stuffedCrust = true;
 	pineapple = false;
 	mushrooms = true;
+	ham = true;
 }
