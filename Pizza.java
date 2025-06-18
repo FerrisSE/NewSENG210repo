@@ -66,4 +66,10 @@ public class Pizza {
 		sizes.put("EXTRANORMOUS", 24);
 		return sizes.get(this.size);
 	}
+
+	public int calories() {
+		int area = Math.pow(this.sizeToRadius(), 2) * Math.PI;
+		//Calories calculated just by area, a constant, and number of toppings. Not accurate at all
+		return area * 2 * toppings.size();
+	}
 }
