@@ -56,20 +56,4 @@ public class Pizza {
 	            && !lowercaseTopping.equals("salami");
 	}
 
-	private int sizeToRadius() {
-		Map<String, int> sizes = new HashMap<String, int>();
-		sizes.put("TINY", 6);
-		sizes.put("SMALL", 8);
-		sizes.put("MEDIUM", 12);
-		sizes.put("LARGE", 16);
-		sizes.put("GINORMOUS", 20);
-		sizes.put("EXTRANORMOUS", 24);
-		return sizes.get(this.size);
-	}
-
-	public int calories() {
-		int area = Math.pow(this.sizeToRadius(), 2) * Math.PI;
-		//Calories calculated just by area, a constant, and number of toppings. Not accurate at all
-		return area * 2 * toppings.size();
-	}
 }
