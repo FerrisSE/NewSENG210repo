@@ -9,4 +9,5 @@ PT {
 	stuffedCrust = true;
 	pineapple = false;
 	mushrooms = true;
+	jalapenos: true  // New Topping
 }
