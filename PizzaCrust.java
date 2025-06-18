@@ -29,6 +29,7 @@ public class PizzaCrust {
 		
 		//Adding comment
 		//Another comment
+		scnr.close();
 		
 	}
 }
