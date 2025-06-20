@@ -30,10 +30,11 @@ public class Start {
 				System.out.println("That was not an option goodbye");
 				break;
 		}
+		scnr.close(); //wasn't here originally
 
 	}
 
-	public static string pizza =
+	public static String pizza =
 			"                     ____\n" +
 			"               _,--~~    ~~--._\n" +
 			"            ,/'  m%%%%%%=@%%m  `\\.\n" +

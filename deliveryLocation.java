@@ -14,7 +14,10 @@ public class deliveryLocation extends Pizza {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("What (fake) location will the pizza be delivered to?");
 
-		Pizza.address = scanner.nextLine(); // User input will transfer to Pizza.address
+		//changed to this because...well deliveryLocation has the address info
+		this.address = scanner.nextLine(); // User input will transfer to Pizza.address
+		
+		scanner.close();
 	}
 	
 }	

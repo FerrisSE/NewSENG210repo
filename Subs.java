@@ -21,7 +21,7 @@ public class Subs {
     /**
      * Default Constructor of Sub.  Price is $0.00, size is 6in, and name is unspecified.
      */
-    public Pasta() {
+    public void Pasta() {
         this.subPrice = 0.00f;
         this.subLength = 6;
         this.subName = "unspecified";
@@ -33,7 +33,7 @@ public class Subs {
      * @param subPrice the sub's price as float
      * @param subLength the sub's size as int
      */
-    public Sub(String subName, Float subPrice, String subLength) {
+    public void Sub(String subName, Float subPrice, int subLength) {
         this.subName = subName;
         this.subLength = subLength;
         this.subPrice = subPrice;
@@ -51,7 +51,7 @@ public class Subs {
      * Set sub size with this setter method.
      * @param subLength the sub's size as String
      */
-    public void setSubLength(String subLength) {
+    public void setSubLength(int subLength) {
         this.subLength = subLength;
     }
 
@@ -75,7 +75,7 @@ public class Subs {
      * Get the sub's size with this getter method.
      * @return sub's size as String
      */
-    public String getSubLength() {
+    public int getSubLength() {
         return subLength;
     }
 
