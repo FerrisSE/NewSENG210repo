@@ -15,19 +15,19 @@ public class Start {
 
 		switch (userInput) {
 			case 1:
-				System.out.println("You have order a pizza");
+				System.out.println("You have order a pizza.");
 
 				break;
 			case 2:
-				System.out.println("You have order Pasta");
+				System.out.println("You have order Pasta.");
 
 				break;
 			case 3:
-				System.out.println("You have order a subsandwhich");
+				System.out.println("You have order a subsandwhich.");
 
 				break;
 			default:
-				System.out.println("That was not an option, goodbye");
+				System.out.println("That was not an option, goodbye.");
 				break;
 		}
 
