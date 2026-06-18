@@ -27,13 +27,14 @@ public class Start {
 
 				break;
 			default:
-				System.out.println("That was not an option goodbye");
+				System.out.println("That was not an option, goodbye");
 				break;
 		}
 
 	}
-
-	public static string pizza =
+	
+	//Fixed "string" declaration below to uppercase
+	public static String pizza =
 			"                     ____\n" +
 			"               _,--~~    ~~--._\n" +
 			"            ,/'  m%%%%%%=@%%m  `\\.\n" +
