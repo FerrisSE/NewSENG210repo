@@ -15,7 +15,37 @@ public class Start {
 
 		switch (userInput) {
 			case 1:
-				System.out.println("You have order a pizza");
+
+				System.out.println("You have ordered a pizza");
+
+    			System.out.println("Choose your Crazy Crust flavor:");
+    			System.out.println("1. Garlic");
+    			System.out.println("2. Parmesan");
+    			System.out.println("3. Red Pepper");
+    			System.out.println("4. Butter & Herb");
+
+    			int crustChoice = scnr.nextInt();
+
+				    if (crustChoice == 1) 
+						{
+        					System.out.println("Crazy Crust: Garlic");
+    					} 
+						else if (crustChoice == 2) 
+						{
+							System.out.println("Crazy Crust: Parmesan");
+    					} 
+						else if (crustChoice == 3) 
+						{
+							System.out.println("Crazy Crust: Red Pepper");
+    					} 
+						else if (crustChoice == 4) 
+						{
+							System.out.println("Crazy Crust: Butter & Herb");
+    					} 
+						else 
+						{
+							System.out.println("Invalid crust choice");
+    					}
 
 				break;
 			case 2:
